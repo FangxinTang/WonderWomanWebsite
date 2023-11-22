@@ -1,0 +1,15 @@
+body {
+    background-color: wheat;
+}
+
+#weapon1-img {
+    width: 200px;
+    height: 200px
+}
+
+.skill-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 120px;
+    border: 10px solid white;
+}
