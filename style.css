@@ -4,32 +4,99 @@ body {
 }
 
 .head-container {
-    background-color: #EA906C;
+    margin-top: 0;
+    background-color:#DED0B6;
+    width: 100%;
 }
+
 
 .title {
     color: #2B2A4C;
+    font-family: 'Libre Baskerville', serif;
+    font-size:68px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .subtitle {
     color: #2B2A4C;
+    font-size: 2rem;
+    text-align: center;
 }
 
 h5 {
-    color:#2B2A4C
+    color:#2B2A4C;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .quote {
-    color: #B31312
+    color: grey;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Arial;
 }
+
 #weapon1-img {
     width: 200px;
-    height: 200px
+    height: 200px;
+    position: relative;
+    left:1600px;
+    top:100px;
+}
+
+
+#main-img {
+    height: 600px;
+    border: 10px solid #2B2A4C;
+    margin-bottom: 50px;
+}
+
+.skill-card-container {
+    position:relative;
+    width: 1500px;
+    margin: 10px 500px;
+}
+
+.skill-card {
+    width: 450px;
+    border: 5px dashed #DED0B6;
+    text-align: left;
 }
 
 .skill-img {
+    position:relative;
+    left:115px;
+    margin-top: 20px;
     width: 200px;
     height: 200px;
-    border-radius: 120px;
+    border-radius: 50%;
     border: 10px solid white;
+}
+
+#skill-2 {
+    position: absolute;
+    left: 525px;
+    top: 0;
+}
+
+#skill-3 {
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+
+.skill-txt {
+    font-family: Arial;
+    font-size: 1.2rem;
+    color: rgb(26, 27, 27);
+    padding: 10px;
+    margin-top: 0;
+}
+
+.contact-message {
+    text-align: center;
 }

@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lobster&family=Merriweather&family=Raleway:wght@800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lobster&family=Marcellus&family=Merriweather&family=Raleway:wght@800&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -26,7 +26,7 @@
         An Immortal Amazon Warrior, Demigoddess, and Superhero
       </p>
 
-      <img src="images/head-img.jpg" alt="head-img" />
+      <img id="main-img" src="images/head-img.jpg" alt="head-img" />
     </div>
 
     <hr />
@@ -37,7 +37,7 @@
       </div>
 
       <div class="subtitle-container">
-        <h3 class="subtitle">hello</h3>
+        <h3 class="subtitle">Hello</h3>
       </div>
 
       <div class="summary">
@@ -55,39 +55,38 @@
         <h3 class="subtitle">My Skills</h3>
       </div>
 
-      <div class="skill-card">
-        <img class="skill-img" src="images/skill-1.png" alt="skill-1" />
-        <h5>Lasso of Truth Manipulation</h5>
-        <p class="skill-txt">
-          I wield the awe-inspiring Lasso of Truth, a divine weapon forged by
-          the gods themselves. Crafted from the finest golden material, this
-          mystical lasso possesses the unique ability to compel absolute honesty
-          from anyone ensnared by its embrace. Beyond its utility in extracting
-          vital information, the Lasso of Truth serves as a symbol of unwavering
-          justice and absolute honesty.
-        </p>
-      </div>
+      <div class="skill-card-container">
+        <div class="skill-card" id="skill-1">
+          <img class="skill-img" src="images/skill-1.png" alt="skill-1" />
+          <h5>Lasso of Truth Manipulation</h5>
+          <p class="skill-txt">
+            I wield the awe-inspiring Lasso of Truth, a divine weapon forged by
+            the gods themselves. Crafted from the finest golden material, this
+            mystical lasso possesses the unique ability to compel absolute
+            honesty from anyone ensnared by its embrace.
+          </p>
+        </div>
 
-      <div class="skill-card">
-        <img class="skill-img" src="images/skill-2.png" alt="skill-2" />
-        <h5>Superhuman Speed</h5>
-        <p class="skill-txt">
-          I possess the extraordinary gift of superhuman speed, a power that
-          transcends the limits of ordinary beings. This incredible ability
-          enhances my agility in combat and elevates my effectiveness on the
-          battlefield.
-        </p>
-      </div>
+        <div class="skill-card" id="skill-2">
+          <img class="skill-img" src="images/skill-2.png" alt="skill-2" />
+          <h5>Superhuman Speed</h5>
+          <p class="skill-txt">
+            I possess the extraordinary gift of superhuman speed, a power that
+            transcends the limits of ordinary beings. This incredible ability
+            enhances my agility in combat and elevates my effectiveness on the
+            battlefield.
+          </p>
+        </div>
 
-      <div class="skill-card">
-        <img class="skill-img" src="images/skill-3.png" alt="skill-3" />
-        <h5>Combat Skills</h5>
-        <p class="skill-txt">
-          I am a masterful warrior, honed through relentless training in various
-          combat techniques and martial arts. My prowess extends beyond physical
-          strength, encompassing strategic thinking, weapon mastery, and
-          adaptability in diverse forms of combat.
-        </p>
+        <div class="skill-card" id="skill-3">
+          <img class="skill-img" src="images/skill-3.png" alt="skill-3" />
+          <h5>Combat Skills</h5>
+          <p class="skill-txt">
+            I am a masterful warrior, honed through relentless training in
+            various combat techniques and martial arts. My prowess extends
+            beyond physical strength, encompassing strategic thinking and adaptability in diverse forms of combat.
+          </p>
+        </div>
       </div>
     </div>
 
@@ -95,12 +94,15 @@
 
     <div class="contact-container">
       <div class="subtitle-container">
-        <h3 class="subtitle">get in touch</h3>
-        <h5>some text here</h5>
+        <h3 class="subtitle">Get In Touch</h3>
+        <p class="quote">Seeking strength in adversity?</p>
       </div>
 
       <div class="contact-message">
-        <p>some text here</p>
+        <p>
+          Click "CONTACT ME" to share your story, and let Wonder Woman be a
+          beacon of hope in your fight against injustice.
+        </p>
 
         <a class="btn" href="mailto:wonderwoman@justice.com">CONTACT ME</a>
       </div>
