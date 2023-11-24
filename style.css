@@ -1,7 +1,27 @@
+/* Set Colors */
 body {
-    background-color: wheat;
+    background-color: #EEE2DE;
 }
 
+.head-container {
+    background-color: #EA906C;
+}
+
+.title {
+    color: #2B2A4C;
+}
+
+.subtitle {
+    color: #2B2A4C;
+}
+
+h5 {
+    color:#2B2A4C
+}
+
+.quote {
+    color: #B31312
+}
 #weapon1-img {
     width: 200px;
     height: 200px
